@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Radiance的博客</title>
-        <link>https://radiance0718.github.io/</link>
+        <link>http://localhost:1313/</link>
         <description>Recent content on Radiance的博客</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-Hans</language>
-        <lastBuildDate>Sun, 10 Mar 2024 17:36:08 +0800</lastBuildDate><atom:link href="https://radiance0718.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 10 Mar 2024 17:36:08 +0800</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>My-first-post</title>
-        <link>https://radiance0718.github.io/p/my-first-post/</link>
+        <link>http://localhost:1313/p/my-first-post/</link>
         <pubDate>Sun, 10 Mar 2024 00:33:03 +0800</pubDate>
         
-        <guid>https://radiance0718.github.io/p/my-first-post/</guid>
+        <guid>http://localhost:1313/p/my-first-post/</guid>
         <description>&lt;h2 id=&#34;写在最开始&#34;&gt;写在最开始&lt;/h2&gt;
 &lt;p&gt;写下这段话的时候，博主还是带三狗一枚。
 看着玩的比较好的哥们在科研上做出成就，再看着自己一事无成的3年，于是告诫自己‘博主啊博主，你不能这么堕落下去了’&lt;del&gt;次日：‘在steam上游玩了23h’&lt;/del&gt;
@@ -20,18 +20,18 @@
         </item>
         <item>
         <title>Archives</title>
-        <link>https://radiance0718.github.io/archives/</link>
+        <link>http://localhost:1313/archives/</link>
         <pubDate>Sun, 06 Mar 2022 00:00:00 +0000</pubDate>
         
-        <guid>https://radiance0718.github.io/archives/</guid>
+        <guid>http://localhost:1313/archives/</guid>
         <description></description>
         </item>
         <item>
         <title>Links</title>
-        <link>https://radiance0718.github.io/links/</link>
+        <link>http://localhost:1313/links/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://radiance0718.github.io/links/</guid>
+        <guid>http://localhost:1313/links/</guid>
         <description>&lt;p&gt;To use this feature, add &lt;code&gt;links&lt;/code&gt; section to frontmatter.&lt;/p&gt;
 &lt;p&gt;This page&amp;rsquo;s frontmatter:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -63,10 +63,10 @@
         </item>
         <item>
         <title>Search</title>
-        <link>https://radiance0718.github.io/search/</link>
+        <link>http://localhost:1313/search/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://radiance0718.github.io/search/</guid>
+        <guid>http://localhost:1313/search/</guid>
         <description></description>
         </item>
         

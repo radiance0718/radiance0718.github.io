@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Posts on Radiance的博客</title>
-        <link>https://radiance0718.github.io/post/</link>
+        <link>http://localhost:1313/post/</link>
         <description>Recent content in Posts on Radiance的博客</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-Hans</language>
-        <lastBuildDate>Sun, 10 Mar 2024 17:36:08 +0800</lastBuildDate><atom:link href="https://radiance0718.github.io/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 10 Mar 2024 17:36:08 +0800</lastBuildDate><atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>My-first-post</title>
-        <link>https://radiance0718.github.io/p/my-first-post/</link>
+        <link>http://localhost:1313/p/my-first-post/</link>
         <pubDate>Sun, 10 Mar 2024 00:33:03 +0800</pubDate>
         
-        <guid>https://radiance0718.github.io/p/my-first-post/</guid>
+        <guid>http://localhost:1313/p/my-first-post/</guid>
         <description>&lt;h2 id=&#34;写在最开始&#34;&gt;写在最开始&lt;/h2&gt;
 &lt;p&gt;写下这段话的时候，博主还是带三狗一枚。
 看着玩的比较好的哥们在科研上做出成就，再看着自己一事无成的3年，于是告诫自己‘博主啊博主，你不能这么堕落下去了’&lt;del&gt;次日：‘在steam上游玩了23h’&lt;/del&gt;
