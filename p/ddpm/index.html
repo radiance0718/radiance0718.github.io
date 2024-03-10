@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="zh-Hans" dir="ltr">
-    <head><meta charset='utf-8'>
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
 <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='DDPM学习笔记 DDPM(Denoising Diffusion Probabilistic Models)，是在2020年Jonathan Ho，Ajay Jain，Pieter Abbeel三位作者发表的论文Denoising Diffusion Probabilistic Models中提出的由随机噪声生成图片的模型，效果非常良好。但论文中有大量的概统内容，需要一定的数学基础。本文旨在与梳理复杂的公式，提取出其中了解代码所必需的内容
 框架一览 DDPM大体可以分为两部分，加噪（正向）和去噪（反向）部分。其中加噪过程对应着训练过程，去噪过程对应着生成图片的过程。
 加噪过程主体由两个模块组成：对图像进行不断加噪的部分和用加噪得到的结果进行训练的网络部分
@@ -11,7 +11,7 @@
 $$ x_t = \sqrt{1-\beta_{t}}x_{t-1}&#43;\sqrt{\beta_t}z_t, z_t\sim{N(0, I)} $$ 其中$\beta$即是上文中曾提到过的用来控制加噪时噪声占比的参数'>
 <title>DDPM</title>
 
-<link rel='canonical' href='https://radiance0718.github.io/p/ddpm/'>
+<link rel='canonical' href='http://localhost:1313/p/ddpm/'>
 
 <link rel="stylesheet" href="/scss/style.min.abbd69b2908fdfcd5179898beaafd374514a86538d81639ddd2c58c06ae54e40.css"><meta property='og:title' content='DDPM'>
 <meta property='og:description' content='DDPM学习笔记 DDPM(Denoising Diffusion Probabilistic Models)，是在2020年Jonathan Ho，Ajay Jain，Pieter Abbeel三位作者发表的论文Denoising Diffusion Probabilistic Models中提出的由随机噪声生成图片的模型，效果非常良好。但论文中有大量的概统内容，需要一定的数学基础。本文旨在与梳理复杂的公式，提取出其中了解代码所必需的内容
@@ -22,7 +22,7 @@ $$ x_t = \sqrt{1-\beta_{t}}x_{t-1}&#43;\sqrt{\beta_t}z_t, z_t\sim{N(0, I)} $$ �
 前向过程 数学推导 由于作者太菜本文主旨是辅助读者梳理为了手搓ddpm你需要了解的公式，因此这里我不会列出所有的推导公式
 我们的目标是给$x_0$加上随机生成的噪声总共T次，每次加的噪声记为$z_t$。虽然是如此描述的，但我们加噪过程并不是简单的$x_{t&#43;1}=x_t&#43;z_t$。我们的模型是扩散（Diffusion）模型，因此，我们需要一个“扩散”的过程。即，我们用一个参数去控制每次加噪时噪声的占比，使得噪声是渐渐在原图上&amp;quot;浮现&amp;quot;出来。实际上我们单次加噪的模型如下：
 $$ x_t = \sqrt{1-\beta_{t}}x_{t-1}&#43;\sqrt{\beta_t}z_t, z_t\sim{N(0, I)} $$ 其中$\beta$即是上文中曾提到过的用来控制加噪时噪声占比的参数'>
-<meta property='og:url' content='https://radiance0718.github.io/p/ddpm/'>
+<meta property='og:url' content='http://localhost:1313/p/ddpm/'>
 <meta property='og:site_name' content='Radiance的博客'>
 <meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2024-03-10T14:19:05&#43;08:00'/><meta property='article:modified_time' content='2024-03-10T14:19:05&#43;08:00'/>
 <meta name="twitter:title" content="DDPM">
